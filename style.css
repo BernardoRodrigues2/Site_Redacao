@@ -1,11 +1,14 @@
 *{
-    padding: 0;
-    margin: 0;
+    
+    margin: 5px;
+    padding: 2px;
 }
 
 hr{
-    margin: 20px;
-    size: 100px;
+    display: flex;
+    margin-top: 20px;
+    width: 390px;
+    justify-content: left;
 }
 
 body{
@@ -16,19 +19,18 @@ body{
     color: white;
     line-height: 18px;
     background: linear-gradient(to right, rgb(109, 109, 109),rgb(173, 173, 173));
-    text-align: center;
+    
 }
 p{
-    margin: 20px;
-    text-align: center;
+    margin: 10px;
     font-size: 15px;
     font-family: 'Trebuchet MS';
     color: rgb(255, 255, 255);
+    
 }
 
 p1{
-    margin: 0px;
-    text-align: center;
+    margin-top: 10px;
     font-size: 25px;
     font-family: 'Trebuchet MS';
     color: rgb(255, 255, 255);
@@ -38,42 +40,53 @@ p1{
 
 .grid-principal{
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 120px 125px;
     grid-template-rows: 1fr 1fr ;
-    justify-content: center;
-    gap: 45px;
+    gap: 70px;
+    row-gap: 10px;
+    font-size: 18px;
 }
+
 .grid-item{
     border: solid 4px white;
     border-radius: 0%;
-    width: 130px;
-    height: 95px;
+    width: 120px;
+    height: 110px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+    
 }
 nav{
-    font-size: 16px;
-    margin: 15px;
+    font-size: 24px;
+    margin: 13px;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    line-height: 30px;
     color: rgb(255, 255, 255);
 }
 p3{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+   
     display: flex;
     font-size: 22px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  text-decoration: underline;  
+    display: flex;
+    
 }
 .div-video{
+    width: 390px;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 .video-redacao{
-    width: 320px;
+    width: 395px;
     height: 160px;
 }
-body {
+
+body{
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;

@@ -42,6 +42,9 @@ body{
     justify-content: center;
     margin-top: 64px;
     text-align: center;
+    gap: 70px;
+    row-gap: 10px;
+    font-size: 18px;
 }
 
 .grid-item{
@@ -55,37 +58,34 @@ body{
 }
 p{
     font-size: 22px;
-    text-align: center;
+    
     line-height: 1.5rem;
     text-decoration: underline;
 }
 
 p1{
-    font-size: 18px;
+    margin: 20px;
+    margin-top: 30px;
+   
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+    color: rgb(255, 255, 255);
     text-decoration: underline;
-    margin: 30px;
-    text-align: center;
-    line-height: 1.5rem;
 }
 
 img{
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+
   display: flex;
   line-height: 1.5rem;
     
 }
 p3{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    
     display: flex;
     font-size: 22px;
-  text-align: center;
-  justify-content: center;
+ 
   display: flex;
   text-decoration: underline;  
 }

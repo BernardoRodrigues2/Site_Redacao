@@ -1,6 +1,6 @@
 *{
-    margin: 10;
-    padding: 0;
+    margin: 5px;
+    padding: 2px;
 }
 .slide-fwd-center {
 	-webkit-animation: slide-fwd-bottom 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -35,13 +35,12 @@ body{
 }
 
 .grid-principal{
-    display: grid;
-    grid-template-columns: 158px 158px ;
-    grid-template-rows: 1fr 1fr ;
-    gap: 0px;
-    justify-content: center;
-    margin-top: 64px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 120px 125px;
+  grid-template-rows: 1fr 1fr ;
+  gap: 70px;
+  row-gap: 10px;
+  font-size: 18px;
 }
 
 .grid-item{
@@ -55,39 +54,38 @@ body{
 }
 p{
     font-size: 22px;
-    text-align: center;
+    
     line-height: 1.5rem;
     text-decoration: underline;
 }
 
 p1{
-    font-size: 30px;
+    margin: 20px;
+    margin-top: 30px;
+    
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+    color: rgb(255, 255, 255);
     text-decoration: underline;
-    margin: 30px;
-    text-align: center;
-    line-height: 1.5rem;
 }
 
 img{
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+
   display: flex;
   line-height: 1.5rem;
     
 }
 p3{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: 22px;
-  text-align: center;
-  justify-content: center;
+    
   display: flex;
-  text-decoration: underline;  
+  font-size: 22px;
+  text-align: center;
+  display: flex;
+  text-decoration: underline; 
+  align-items: center; 
+
 }
 body{
     perspective: 800px;
@@ -105,7 +103,7 @@ body {
   margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
-  background: linear-gradient(315deg,#035AA6 3%,rgb(161, 161, 161) 38%,#508BBF 68%, rgb(161, 161, 161) 98%);
+  background: linear-gradient(315deg,#035AA6 3%,rgb(160, 160, 160) 38%,#508BBF 68%, rgb(160, 160, 160) 98%);
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
